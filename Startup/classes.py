@@ -22,7 +22,7 @@ class Flight():
         return self.capacity - len(self.passangers)
 flight = Flight(3)
 
-people = ["Amir", "Ali", "melik","giny"]
+people = ["Amir", "Ali", "melika","giny"]
 for person in people:
     success = flight.add_passanger(person)
     if success:
